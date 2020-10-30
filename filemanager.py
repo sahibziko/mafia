@@ -3,7 +3,7 @@
 
 def readfile(name):
     """Leggi i contenuti di un file.
-    :param name: Nome del file
+    :telegramapi.txt:
     """
     file = open(name, 'r')
     content = file.read()
