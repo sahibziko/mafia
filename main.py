@@ -17,7 +17,7 @@ from roles.roles import *
 logging.basicConfig(level=logging.WARNING,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-token = filemanager.readfile ('telegramapi.txt')
+token = filemanager.readfile('telegramapi.txt')
 updater = Updater(token)
 
 freenames = s.names_list.copy()
