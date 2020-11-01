@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 
-def readfile(name):
-    """Leggi i contenuti di un file.
-    :telegramapi.txt:
+def readfile(telegramapi.txt):
+    """Leia o conteúdo de um arquivo.
+    :param name:
     """
     file = open(name, 'r')
     content = file.read()
@@ -12,7 +12,7 @@ def readfile(name):
 
 
 def writefile(name, content):
-    """Scrivi qualcosa su un file, sovrascrivendo qualsiasi cosa ci sia al suo interno.
+    """Grave algo em um arquivo, sobrescrevendo tudo o que estiver nele.
     :param name: Nome del file
     :param content: Contenuto del file
     """
