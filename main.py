@@ -7,7 +7,7 @@ import time
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
 from telegram import ParseMode, InlineKeyboardButton, InlineKeyboardMarkup, Bot
 from telegram.error import Unauthorized, TimedOut, RetryAfter
-import filemanager
+#import filemanager
 import random
 import strings as s
 import logging
